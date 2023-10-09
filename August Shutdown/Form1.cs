@@ -11,8 +11,16 @@ namespace August_Shutdown
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Process.Start("shutdown", "/s /t 8");
+
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Process.Start("shutdown", "/s");
+        }
     }
 }
+
+// Just a little joke app, similar to the Peter Alert joke
+
+// Made with <3 - August, 2023
